@@ -1,0 +1,63 @@
+{
+  "products": [
+    {
+      "productId": 1,
+      "productName": "Product 2",
+      "productPrice": "$20.00",
+      "productCategory": "Clothing",
+      "productImage": "https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/0/z/o/xxl-no-bs-black-wmn-1-barstow-original-imah2qpweat3hmh2.jpeg?q=70",
+      "id": "aa25"
+    },
+    {
+      "productId": 2,
+      "productName": "Product 3",
+      "productPrice": "$30.00",
+      "productCategory": "Books",
+      "productImage": "https://rukminim2.flixcart.com/image/612/612/xif0q/book/t/d/0/pw-cbse-class-10-competency-based-question-bank-for-board-exam-l-original-imah77p25sjgf7pf.jpeg?q=70",
+      "id": "8af2"
+    },
+    {
+      "productId": 3,
+      "productName": "Product 4",
+      "productPrice": "$40.00",
+      "productCategory": "Home & Kitchen",
+      "productImage": "https://rukminim2.flixcart.com/image/612/612/kzsqykw0/painting/n/j/d/12-3-indr4064fl-indianara-original-imagbpzgjecdtw7g.jpeg?q=70",
+      "id": "e8d8"
+    },
+    {
+      "id": "70be",
+      "productName": "top",
+      "productPrice": "499",
+      "productCategory": "womens",
+      "productImage": "https://rukminim2.flixcart.com/image/612/612/xif0q/sweatshirt/j/p/s/xxl-hood-jsiya-original-imaguyyngggfqpxc.jpeg?q=70"
+    },
+    {
+      "productName": "Toy",
+      "productPrice": "4563",
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRffw0D_OcUVJ8N59p_2XzvPiUlse-foejp7w&s",
+      "productCategory": "Child",
+      "id": "5093"
+    },
+    {
+      "productName": "Toy",
+      "productPrice": "4563",
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRffw0D_OcUVJ8N59p_2XzvPiUlse-foejp7w&s",
+      "productCategory": "Child",
+      "id": "ffd7"
+    },
+    {
+      "productName": "watch",
+      "productPrice": "789",
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQzAhM2vschsy4lHgNdBJW5E_uuoCIbWVYzQ&s",
+      "productCategory": "Accessories",
+      "id": "a7d2"
+    },
+    {
+      "id": "fe9a",
+      "productName": "laptop",
+      "productPrice": "48555",
+      "productImage": "data:image/jpeg;base64,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",
+      "productCategory": "Electronics"
+    }
+  ]
+}
