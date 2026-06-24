@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container1">
+        <img id="logo"
+            src="https://www.logodesignteam.com/images/portfolio-images/ecommerce-websites-logo-design/ecommerce-websites-logo-design-new11.jpg">
+
+        <a class="op" href="index.html">Home</a>
+        <a class="op" href="products.html">products</a>
+        <a class="op" href="about.html">about</a>
+        <a class="op" href="contact.html">contact</a>
+    </div>
+
+
+
+    <!-- ADD FORM -->
+
+    <form id="addForm">
+
+        <h1 id="addHeading">ADD ITEMS</h1>
+
+        <input type="text" placeholder="enter product name" id="prodname">
+
+        <input type="number" placeholder="enter product price" id="prodprice">
+
+        <input type="url" placeholder="enter product image" id="prodimg">
+
+        <input type="text" placeholder="enter product category" id="prodcat">
+
+        <input type="submit" value="Click to Add" id="addBtn">
+
+    </form>
+
+
+
+    <!-- DELETE + GET DATA -->
+
+    <form id="deleteForm">
+
+        <h1 id="deleteHeading">Delete ITEMS</h1>
+
+        <input type="text" placeholder="enter product id" id="prodid">
+
+        <button type="button" id="delBtn">
+
+            Delete
+        </button>
+
+        <button type="button" id="BtnData">
+
+            Get data
+        </button>
+
+    </form>
+
+
+
+    <!-- UPDATE FORM -->
+
+    <form id="updateForm">
+
+        <h1 id="updateHeading">Update ITEMS</h1>
+
+        <input id="productId" placeholder="enter the id of the prod you want to update">
+
+        <input type="text" id="updateProdname" placeholder="enter product name">
+
+        <input type="number" id="updateProdprice" placeholder="enter product price">
+
+        <input type="url" id="updateProdimg" placeholder="enter product image">
+
+        <input type="text" id="updateProdcat" placeholder="enter product category">
+
+        <input type="submit" id="updateBtn" value="Update Product">
+
+    </form>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
