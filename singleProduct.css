@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* BODY */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    min-height: 100vh;
+}
+
+
+
+/* NAVBAR */
+
+#container1 {
+    width: 100%;
+    height: 75px;
+    background: #111827;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 0 20px;
+}
+
+
+
+/* LOGO */
+
+#logo {
+    width: 130px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+
+/* NAV LINKS */
+
+.op {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.op:hover {
+    color: #60a5fa;
+}
+
+
+
+/* HEADING */
+
+#heading {
+    text-align: center;
+    margin-top: 30px;
+    color: #1e293b;
+    font-size: 32px;
+}
+
+
+
+/* ROOT */
+
+#singleRoot {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+
+
+/* CARD */
+
+.card {
+    width: 320px;
+    background: white;
+
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+
+/* IMAGE */
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+
+
+/* PRODUCT NAME */
+
+.card h2 {
+    text-align: center;
+    margin-top: 15px;
+    color: #111827;
+    font-size: 24px;
+}
+
+
+
+/* PRICE */
+
+.card h3 {
+    text-align: center;
+    margin-top: 10px;
+    color: #16a34a;
+    font-size: 22px;
+}
+
+
+
+/* CATEGORY */
+
+.card p {
+    text-align: center;
+    margin: 12px 0 20px;
+    color: #64748b;
+    font-size: 16px;
+}
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+
+    #container1 {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 15px;
+        gap: 12px;
+    }
+
+    #logo {
+        width: 120px;
+        height: 40px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    #heading {
+        font-size: 28px;
+    }
+}
